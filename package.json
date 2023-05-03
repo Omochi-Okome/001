@@ -16,5 +16,8 @@
     "nodemon": "^2.0.22",
     "yarn": "^1.22.19"
   },
-  "description": ""
+  "description": "",
+  "resolutions": {
+    "cssnano-preset-simple": "3.0.0"
+  }
 }
