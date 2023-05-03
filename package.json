@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "app.js",
+    "start": "npm run dev",
     "build":"app.js",
     "test":"app.js",
     "eject":"app.js"
