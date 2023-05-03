@@ -13,7 +13,7 @@ app.use("/api/v1/tasks", taskRoute);
 //データベースと接続
 const start = async () => {
     try {
-       await connectDB("mongodb+srv://udemy:MGU0401@cluster0.qb0i4qq.mongodb.net/todoapp?retryWrites=true&w=majority");
+       await connectDB(process.env.M_URL);
        app.listen(process.env.PORT || PORT, console.log("サーバーが起動しました"));
     } catch (err) {
         console.log(err);
