@@ -4,6 +4,10 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
+    "start": "app.js",
+    "build":"app.js",
+    "test":"app.js",
+    "eject":"app.js"
   },
   "keywords": [],
   "author": "",
